@@ -6,7 +6,6 @@ window#waybar {
   background: rgba(0, 0, 0, 0.6); 
 }
 
-#workspaces {}
 #workspaces button {
   color: slategray;
   margin-right: -7px;
@@ -29,6 +28,15 @@ window#waybar {
 #battery {
   color: white;
   margin-right: 15px;
+}
+
+#battery.charging, #battery.plugged {
+	color: palegreen;
+}
+
+
+#battery.critical:not(.charging) {
+    color: lightcoral;
 }
 
 #pulseaudio {
