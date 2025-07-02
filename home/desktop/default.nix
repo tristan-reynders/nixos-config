@@ -7,5 +7,6 @@
     ./waybar
     ./ghostty
     ./rofi
+    ./zsh
   ];
 }
