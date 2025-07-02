@@ -4,6 +4,7 @@
   imports = [
     ./hyprland
     ./waybar
+    ./tools/git
   ];
   
   home.username = "tristan";
@@ -14,7 +15,6 @@
 
   home.packages = with pkgs; [
     greetd.tuigreet
-    git
     firefox
     kitty
     brightnessctl
