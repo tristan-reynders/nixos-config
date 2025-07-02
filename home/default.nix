@@ -20,5 +20,6 @@
     neovim
     vscode
     nerd-fonts.jetbrains-mono
+    waypaper
   ];
 }
