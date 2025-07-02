@@ -1,11 +1,12 @@
-{ ... }:
+{ pkgs, ... }:
 
 {
-  programs.zsh = {
-    enable = true;
+  programs.zsh = { 
     enableCompletion = true;
-    autosuggestions.enable = true;
     syntaxHighlighting.enable = true;
-    ohMyZsh.enable = true;
+    history = {
+      save = 10000;
+      share = true;
+    };
   };
 }

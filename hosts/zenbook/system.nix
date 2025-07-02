@@ -22,9 +22,11 @@
     };
   };
   
+  programs.zsh.enable = true;
   users.users.tristan = {
     isNormalUser = true;
     extraGroups = [ "wheel" "networkmanager" "video" "input"];
+    shell = pkgs.zsh;
   };
   
   system.stateVersion = "25.05";
