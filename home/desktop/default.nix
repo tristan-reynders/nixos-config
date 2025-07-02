@@ -6,5 +6,6 @@
     ./hyprpaper
     ./waybar
     ./ghostty
+    ./rofi
   ];
 }
