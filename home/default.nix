@@ -22,5 +22,8 @@
 
     # Wallpapers
     hyprpaper
+
+    # zsh
+    oh-my-zsh
   ];
 }

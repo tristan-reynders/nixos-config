@@ -9,5 +9,8 @@
       save = 10000;
       share = true;
     };
+    ohMyZsh = {
+      enable = true;
+    };  
   };
 }
