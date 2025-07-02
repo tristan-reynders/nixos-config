@@ -15,7 +15,6 @@
   home.packages = with pkgs; [
     greetd.tuigreet
     firefox
-    kitty
     brightnessctl
     neovim
     vscode
