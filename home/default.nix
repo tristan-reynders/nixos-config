@@ -2,8 +2,7 @@
 
 {
   imports = [
-    ./hyprland
-    ./waybar
+    ./desktop
     ./tools
   ];
   
