@@ -6,6 +6,11 @@ window#waybar {
   background: rgba(0, 0, 0, 0.6); 
 }
 
+tooltip {
+    background: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.6);
+}
+
 #workspaces button {
   color: slategray;
   margin-right: -7px;
