@@ -8,7 +8,7 @@
       splash = false; 
 
       preload = [ "~/nixos-config/home/wallpapers/night-clouds.jpg" ];
-      wallpaper = [ "~/nixos-config/home/wallpapers/night-clouds.jpg" ];
+      wallpaper = [ "eDP-1, ~/nixos-config/home/wallpapers/night-clouds.jpg" ];
     };
   };
 }
