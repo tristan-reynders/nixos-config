@@ -16,7 +16,6 @@
     greetd.tuigreet
     firefox
     brightnessctl
-    neovim
     vscode
     nerd-fonts.jetbrains-mono
 
