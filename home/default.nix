@@ -23,6 +23,5 @@
 
     # Wallpapers
     hyprpaper
-    waypaper
   ];
 }
