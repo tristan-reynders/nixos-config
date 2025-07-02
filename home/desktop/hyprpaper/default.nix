@@ -7,8 +7,8 @@
       ipc = "on";
       splash = false; 
 
-      preload = [];
-      wallpaper = [];
+      preload = [ "~/nixos-config/home/wallpapers/night-clouds.jpg" ];
+      wallpaper = [ "~/nixos-config/home/wallpapers/night-clouds.jpg" ];
     };
   };
 }
