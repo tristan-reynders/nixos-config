@@ -22,7 +22,6 @@
     };
   };
   
-  programs.zsh.enable = true;
   users.users.tristan = {
     isNormalUser = true;
     extraGroups = [ "wheel" "networkmanager" "video" "input"];
