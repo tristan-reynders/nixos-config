@@ -26,6 +26,7 @@
     isNormalUser = true;
     extraGroups = [ "wheel" "networkmanager" "video" "input"];
     shell = pkgs.zsh;
+    ignoreShellProgramCheck = true;
   };
   
   system.stateVersion = "25.05";
