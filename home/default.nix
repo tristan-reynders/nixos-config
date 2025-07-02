@@ -9,6 +9,7 @@
   home.username = "tristan";
   home.homeDirectory = "/home/tristan";
   home.stateVersion = "25.05";
+  home.shell = pkgs.zsh;
   
   programs.home-manager.enable = true;  
 

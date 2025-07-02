@@ -8,6 +8,4 @@
     syntaxHighlighting.enable = true;
     ohMyZsh.enable = true;
   };
-
-  home.shell = pkgs.zsh;
 }
