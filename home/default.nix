@@ -22,7 +22,6 @@
     nerd-fonts.jetbrains-mono
 
     # Wallpapers
-    hyprpaper
     waypaper
   ];
 }
