@@ -7,8 +7,8 @@
       ipc = "on";
       splash = false; 
 
-      preload = [ "~/nixos-config/home/wallpapers/night-clouds.jpg" ];
-      wallpaper = [ "eDP-1, ~/nixos-config/home/wallpapers/night-clouds.jpg" ];
+      preload = [ "~/nixos-config/home/wallpapers/landscape.jpg" ];
+      wallpaper = [ "eDP-1, ~/nixos-config/home/wallpapers/landscape.jpg" ];
     };
   };
 }
