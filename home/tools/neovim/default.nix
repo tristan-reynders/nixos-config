@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, lib, ... }:
 
 {
   programs.nvf = {
@@ -12,12 +12,22 @@
         transparent = true;
       };
       
+      options = {
+        tabstop = 2;
+        shiftwidth = 2;
+      };
 
-      viAlias = false;
+      viAlias = true;
       vimAlias = true;
 
-      lsp = {
-        enable = true;
+      statusline.lualine.enable = true;
+      telescope.enable = true;
+      autocomplete.nvim-cmp.enable = true;
+
+      languages = {
+        enableTreesitter = true;
+
+        nix.enable = true;
       };
     };
   };
