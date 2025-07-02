@@ -4,7 +4,7 @@
   imports = [
     ./hyprland
     ./waybar
-    ./tools/git
+    ./tools
   ];
   
   home.username = "tristan";
