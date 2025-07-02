@@ -7,9 +7,13 @@
       url = "github:nix-community/home-manager/release-25.05";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    nvf = {
+      url = "github:notashelf/nvf";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
-  outputs = { self, nixpkgs, home-manager, ... }:
+  outputs = { self, nixpkgs, home-manager, nvf, ... }:
   let
     system = "x86_64-linux";
   in {
@@ -17,7 +21,8 @@
       pkgs = nixpkgs.legacyPackages.${system};
       modules = [
         { nixpkgs.config.allowUnfree = true; }
-        ./home/default.nix
+        nvf.homeManagerModules.default
+        ./home
       ];
     };
     nixosConfigurations.zenbook = nixpkgs.lib.nixosSystem {
@@ -29,6 +34,8 @@
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
           home-manager.users.tristan = import ./home;
+          home-manager.extraSpecialArgs = { inherit nvf; };
+          home-manager.sharedModules = [ nvf.homeManagerModules.default ];
         }
       ];
     };
