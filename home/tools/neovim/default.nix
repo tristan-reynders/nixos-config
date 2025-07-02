@@ -4,18 +4,19 @@
   programs.nvf = {
     enable = true;
 
-    settings = {
-      vim.theme = {
+    settings.vim = {
+      theme = {
         enable = true;
         name = "tokyonight";
         style = "night";
         transparent = true;
       };
+      
 
-      vim.viAlias = false;
-      vim.vimAlias = true;
+      viAlias = false;
+      vimAlias = true;
 
-      vim.lsp = {
+      lsp = {
         enable = true;
       };
     };
