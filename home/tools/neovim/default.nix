@@ -8,7 +8,7 @@
       theme = {
         enable = true;
         name = "tokyonight";
-        style = "night";
+        style = "storm";
         transparent = true;
       };
       
@@ -23,6 +23,7 @@
       statusline.lualine.enable = true;
       telescope.enable = true;
       autocomplete.nvim-cmp.enable = true;
+      filetree.nvimTree.enable = true;
 
       languages = {
         enableTreesitter = true;
