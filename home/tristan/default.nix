@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, inputs, ... }:
 
 {
   imports = [
@@ -6,7 +6,9 @@
     ./fonts.nix
     ./git.nix
     ./vscode.nix
+    ./spicetify.nix
     ./config-symlink.nix
+
   ];
 
   # Firefox
