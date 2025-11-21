@@ -14,7 +14,7 @@
 
   # ── Minimal packages ────────────────
   environment.systemPackages = with pkgs; [
-    wget curl git vim unzip htop
+    wget curl git vim unzip htop brightnessctl
   ];
 
   system.stateVersion = "25.11";

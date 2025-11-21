@@ -21,6 +21,7 @@
     shellAliases = {
       ll = "ls -l";
       nrs-desktop = "sudo nixos-rebuild switch --flake ~/nixos-config#desktop";
+      nrs-zenbook = "sudo nixos-rebuild switch --flake ~/nixos-config#zenbook";
     };
     history.size = 10000;
   };
