@@ -25,5 +25,11 @@
       system   = "x86_64-linux";
       users    = { tristan = import ./home/tristan; };
     };
+
+    nixosConfigurations.zenbook = self.lib.mkHost {
+      hostname = "zenbook";
+      system   = "x86_64-linux";
+      users    = { tristan = import ./home/tristan; };
+    };
   };
 }
