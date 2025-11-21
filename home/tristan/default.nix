@@ -5,6 +5,7 @@
     ./shell.nix
     ./fonts.nix
     ./git.nix
+    ./vscode.nix
     ./config-symlink.nix
   ];
 
@@ -13,7 +14,6 @@
 
   # Packages to install
   home.packages = with pkgs; [
-    vscode
     bitwarden-desktop
   ];
   
