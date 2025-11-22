@@ -372,7 +372,7 @@
             {
                 "directory": "/home/tristan/nixos-config/wallpapers",
                 "name": "DP-1",
-                "wallpaper": "/home/tristan/nixos-config/wallpapers/nixos.png"
+                "wallpaper": "/home/tristan/nixos-config/wallpapers/nixos-contrast.png"
             }
         ],
         "overviewEnabled": false,
@@ -380,7 +380,7 @@
         "randomEnabled": false,
         "randomIntervalSec": 300,
         "recursiveSearch": false,
-        "setWallpaperOnAllMonitors": true,
+        "setWallpaperOnAllMonitors": false,
         "transitionDuration": 1500,
         "transitionEdgeSmoothness": 0.05,
         "transitionType": "random",
