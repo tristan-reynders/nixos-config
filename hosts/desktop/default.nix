@@ -9,6 +9,7 @@
     ../../modules/users.nix
     ../../modules/desktop.nix
     ../../modules/nvidia.nix
+    ../../modules/docker.nix
   ];
 
 }

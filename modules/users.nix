@@ -5,7 +5,7 @@
     users.users.tristan = {
         isNormalUser = true;         
         group = "tristan"; 
-        extraGroups = [ "wheel" "networkmanager" "video" ];
+        extraGroups = [ "wheel" "networkmanager" "video" "docker" ];
         shell = pkgs.zsh;
         ignoreShellProgramCheck = true;
     };
