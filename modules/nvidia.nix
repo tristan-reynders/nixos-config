@@ -16,7 +16,6 @@
     __GLX_VENDOR_LIBRARY_NAME = "nvidia";
     __GL_SHADER_DISK_CACHE = "1";
     __GL_SHADER_DISK_CACHE_SIZE = "1000000000";
-    WLR_NO_HARDWARE_CURSORS = "1";
   };
 
   boot.kernelModules = [ "nvidia" "nvidia_modeset" "nvidia_uvm" "nvidia_drm" ];
