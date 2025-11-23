@@ -7,8 +7,8 @@
     ./git.nix
     ./vscode.nix
     ./spicetify.nix
+    ./neovim.nix
     ./config-symlink.nix
-
   ];
 
   # Firefox
