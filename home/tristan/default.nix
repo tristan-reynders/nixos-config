@@ -16,6 +16,13 @@
   home.packages = with pkgs; [
     bitwarden-desktop
   ];
+
+  # Direnv
+  programs.direnv = {
+    enable = true;
+    enableZshIntegration = true;
+    nix-direnv.enable = true;
+  };
   
   # Set state version
   home.stateVersion = "25.11";
