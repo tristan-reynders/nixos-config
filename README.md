@@ -31,8 +31,62 @@
 W.I.P. 
 ```
 
-## 📋 Overview
+## ❄️ Overview
 
-### 🧩 Components
+### 📋 Structure
+- ❄️ [flake.nix](flake.nix) Base of the configuration
+- [hosts/](hosts/) Per-host configuration that contain machine specific configurations
+    - 🖥️ [desktop/](hosts/desktop/) Desktop specific configuration
+    - 💻 [zenbook/](hosts/zenbook/) Laptop specific configuration
+- 🧰 [modules/](modules/)  Modularized core NixOS configuration
+- 🏠 [home/tristan/](home/tristan/) My [Home-Manager](https://github.com/nix-community/home-manager) configuration
+- 🔧 [lib/](lib/)  Contains utility functions to modularize and simplify NixOS configuration
+- 🖼️ [wallpapers/](wallpapers/) Wallpaper collection
 
-### 🚀 Installation
+### 🧩 Main Components
+|                             | NixOS + Niri                                                                                     |
+| --------------------------- | :------------------------------------------------------------------------------------------------:
+| **Window Manager**          | [Niri](#) |
+| **Desktop Shell**           | [Noctalia Shell](#) |
+| **Terminal Emulator**       | [Alacritty](#) |
+| **Shell**                   | [zsh](#) + [starship](#) |
+| **Text Editor**             | [VS Code](#) + [Neovim](#) |
+| **File Manager**            | [Nautilus](#) + [yazi](#) |
+| **Fonts**                   | [JetBrainsMono NF](#) |
+| **Color Scheme**            | [Gruvbox Dark](#) |
+| **Music Player**            | [Spicetify](#) |
+| **Theming**                 | [stylix](#) |
+
+### ⌨️ Keybinds
+<details>
+<summary>
+Niri </h4> 
+</summary>
+
+| Action                      | Bind                                                                                           |
+| --------------------------- | :----------------------------------------------------------------------------------------------:
+| **Open a terminal**          | `Super` + `T` |
+| **Open application launcher** | `Super` + `M` |
+| **Open session menu** | `Super` + `P` |
+| **Close application** | `Super` + `Q` |
+| **Toggle overview** | `Super` + `O` |
+| **Focus column left** | `Super` + `H` / `Left` |
+| **Focus column right** | `Super` + `L` / `Right` |
+| **Focus window down** | `Super` + `J` / `Down` |
+| **Focus window up** | `Super` + `K` / `Up` |
+| **Move to workspace** | `Super` + `1-9` |
+| **Move column left** | `Super` + `CTRL` + `H` / `Left` |
+| **Move column right** | `Super` + `CTRL` + `L` / `Right` |
+| **Move column down** | `Super` + `CTRL` + `J` / `Down` |
+| **Move column up** | `Super` + `CTRL` + `K` / `Up` |
+| **Focus monitor left** | `Super` + `Shift` + `H` + `Left` |
+| **Focus monitor right** | `Super` + `Shift` + `L` + `Right` |
+| **Move column to monitor left** | `Super` + `Shift` + `CTRL` + `J` / `Left` |
+| **Move column to monitor right** | `Super` + `Shift` + `CTRL` + `L` / `Right` |
+| **Switch preset column width** | `Super` + `R` |
+| **Maximize column** | `Super` + `F` |
+| **Increase/Decrease column width** | `Super` + `-` / `+` |
+| **Increase/Decrease window height** | `Super` + `Shift` + `-` + `+` |
+| **Power off monitors** | `Super` + `Shift` + `P` |
+
+</details>

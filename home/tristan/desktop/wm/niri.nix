@@ -109,11 +109,13 @@
                 "${mod}+Right".action = focus-column-right;
                 "${mod}+L".action = focus-column-right;
 
-                # Navigate workspaces
                 "${mod}+Down".action = focus-window-down;
-                "${mod}+J".action = focus-workspace-down;
+                "${mod}+J".action = focus-window-down;
+
                 "${mod}+Up".action = focus-window-up;
-                "${mod}+K".action = focus-workspace-up;
+                "${mod}+K".action = focus-window-up;
+
+                # Navigate workspaces
 
                 "${mod}+1".action = focus-workspace 1;
                 "${mod}+2".action = focus-workspace 2;
@@ -160,7 +162,6 @@
                 # Resize columns
                 "${mod}+R".action = switch-preset-column-width;
                 "${mod}+F".action = maximize-column;
-                "${mod}+Shift+F".action = fullscreen-window;
                 "${mod}+Minus".action = set-column-width "-10%";
                 "${mod}+Equal".action = set-column-width "+10%";
                 "${mod}+Shift+Minus".action = set-window-height "-10%";
