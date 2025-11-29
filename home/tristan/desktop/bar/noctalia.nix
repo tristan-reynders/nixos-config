@@ -45,6 +45,9 @@
 
             right = [
               {
+                id = "Tray";
+              }
+              {
                 id = "Volume";
               }
               {
@@ -70,6 +73,10 @@
 
           };
 
+        };
+
+        appLauncher = {
+          terminalCommand = "alacritty -e";
         };
 
         ui = {

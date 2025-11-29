@@ -5,6 +5,8 @@
     ./desktop/fonts
     ./desktop/wm/niri.nix
     ./desktop/bar/noctalia.nix
+    ./desktop/file-managers/yazi.nix
+    ./desktop/theme.nix
 
     ./terminal/shell/zsh.nix
     ./terminal/emulators/alacritty.nix
@@ -15,13 +17,16 @@
     ./utilities/direnv.nix
 
     ./browsers/firefox.nix
+
+    ./applications/nixcord.nix
+
+    ./media/spicetify.nix
   ];
 
   # Packages to install
   home.packages = with pkgs; [
     bitwarden-desktop
     obsidian
-    nautilus
   ];
 
   # Set state version

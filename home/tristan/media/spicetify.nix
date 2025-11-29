@@ -1,6 +1,7 @@
 { pkgs, inputs, ... }:
 
 {
+
   imports = [
     inputs.spicetify-nix.homeManagerModules.default
   ];
@@ -11,7 +12,8 @@
   in
   {
     enable = true;
-    theme = spicePkgs.themes.text;
-    colorScheme = "Gruvbox";
   };
+
+  stylix.targets.spicetify.enable = true;
+
 }

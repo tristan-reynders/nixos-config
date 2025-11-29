@@ -9,10 +9,12 @@
     powerManagement.enable = true;
     open = false;
     nvidiaSettings = true;
+    forceFullCompositionPipeline = true;
   };
 
   environment.sessionVariables = {
     GBM_BACKEND = "nvidia-drm";
+    LIBVA_DRIVER_NAME = "nvidia";
     __GLX_VENDOR_LIBRARY_NAME = "nvidia";
     __GL_SHADER_DISK_CACHE = "1";
     __GL_SHADER_DISK_CACHE_SIZE = "1000000000";
