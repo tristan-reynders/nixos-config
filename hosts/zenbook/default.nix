@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, inputs, ... }:
 
 {
 
@@ -10,6 +10,8 @@
     ../../modules/desktop.nix
     ../../modules/nvidia.nix
     ../../modules/docker.nix
+    ../../modules/laptop.nix
+    ../../modules/stylix.nix
   ];
 
 }

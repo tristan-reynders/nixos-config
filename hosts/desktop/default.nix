@@ -11,8 +11,6 @@
     ../../modules/nvidia.nix
     ../../modules/docker.nix
     ../../modules/stylix.nix
-
-    inputs.stylix.nixosModules.stylix
   ];
   
 }
