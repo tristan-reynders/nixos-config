@@ -1,5 +1,7 @@
-{ inputs, ... }:
-
+{ inputs, osConfig, ... }:
+let
+  hostname = osConfig.networking.hostName;
+in
 {
 
     imports = [ 
@@ -50,15 +52,20 @@
               {
                 id = "Volume";
               }
-              {
-                id = "Brightness";
-              }
-              {
+                            {
                 id = "Bluetooth";
-              }
-              {
-                id = "Battery";
-              }
+              } 
+              ( 
+                if hostname == "zenbook" then [
+                  {
+                    id = "Brightness";
+                  }
+                  {
+                    id = "Battery";
+                  }
+                ] 
+                else []
+              )
               {
                 id = "WiFi";
               }
