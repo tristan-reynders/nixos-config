@@ -10,6 +10,7 @@
     ../../modules/desktop.nix
     ../../modules/nvidia.nix
     ../../modules/docker.nix
+    ../../modules/bluetooth.nix
     ../../modules/stylix.nix
   ];
   

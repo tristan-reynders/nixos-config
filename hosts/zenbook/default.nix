@@ -11,6 +11,7 @@
     ../../modules/nvidia.nix
     ../../modules/docker.nix
     ../../modules/laptop.nix
+    ../../modules/bluetooth.nix
     ../../modules/stylix.nix
   ];
 
